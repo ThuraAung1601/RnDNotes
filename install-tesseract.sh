@@ -21,4 +21,4 @@ git clone https://github.com/tesseract-ocr/tesseract
 cd /app/src/tesseract && ./autogen.sh && ./configure && make && make install && ldconfig 
 make training && make training-install 
 cd /usr/local/share/tessdata 
-wget https://github.com/tesseract-ocr/tessdata_best/raw/main/mya.traineddata
+git clone https://github.com/tesseract-ocr/tessdata_best
