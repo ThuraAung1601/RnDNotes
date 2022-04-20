@@ -8,6 +8,17 @@
 for f in *.jpg; do convert "$f" "${f%%.*}.png"; done
 ```
 
+### Concatenate multiple text files into one file
+
+```python
+python multi2onetxt.py <path-to-files> <concatenated-file>
+```
+### Split into multiple files - one line, one text file
+
+```python
+python one2multiple.py <input-file> <output-files-path> 
+```
+
 ### Install Tesseract to the local machine 
 
 Give execution permission to the script
