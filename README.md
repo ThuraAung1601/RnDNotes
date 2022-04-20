@@ -3,9 +3,11 @@
 ### Change image extension
 
 - Run the command - it will loop over all files
+- density is a resolution unit DPI - Dot per Inch
 - Changing image formats is fine - jpg, png and tiff are popular
+
 ```shell
-for f in *.jpg; do convert "$f" "${f%%.*}.png"; done
+for f in *.jpg; do convert "$f" -density 300 "${f%%.*}.png"; done
 ```
 
 ### Concatenate multiple text files into one file
