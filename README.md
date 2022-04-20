@@ -1,5 +1,13 @@
 ## R&D Notes
 
+### Change image extension
+
+- Run the command - it will loop over all files
+- Changing image formats is fine - jpg, png and tiff are popular
+```shell
+for f in *.jpg; do convert "$f" "${f%%.*}.png"; done
+```
+
 ### Install Tesseract to the local machine 
 
 Give execution permission to the script
@@ -10,6 +18,7 @@ Run the script
 ```shell
 ./install-tesseract.sh
 ```
+
 ### Images to text using Tesseract
 
 Used Tesseract Engine to recognize text in images
