@@ -17,9 +17,8 @@ sudo apt-get install -y g++ autoconf utomake libtool pkg-config libpng-dev libjp
 # Getting data: beware the source might change or not being available
 
 mkdir src && cd /app/src 
-wget https://github.com/tesseract-ocr/tesseract/archive/4.1.0.zip 
-unzip 4.1.0.zip 
-cd /app/src/tesseract-4.1.0 && ./autogen.sh && ./configure && make && make install && ldconfig 
+git clone https://github.com/tesseract-ocr/tesseract
+cd /app/src/tesseract && ./autogen.sh && ./configure && make && make install && ldconfig 
 make training && make training-install 
 cd /usr/local/share/tessdata 
 wget https://github.com/tesseract-ocr/tessdata_best/raw/main/mya.traineddata
