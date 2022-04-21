@@ -17,7 +17,7 @@ apt-get install -y g++ autoconf utomake libtool pkg-config libpng-dev libjpeg8-d
 # Getting data: beware the source might change or not being available
 
 git clone https://github.com/tesseract-ocr/tesseract
-cd /app/src/tesseract && ./autogen.sh && ./configure && make && make install && ldconfig 
+cd tesseract && ./autogen.sh && ./configure && make && make install && ldconfig 
 make training && make training-install 
 cd /usr/local/share/tessdata 
 git clone https://github.com/tesseract-ocr/tessdata_best
