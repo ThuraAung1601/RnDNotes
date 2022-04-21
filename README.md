@@ -32,6 +32,8 @@ Run the script
 ./install-tesseract.sh
 ```
 
+[Tesseract Experiments log](https://github.com/ThuraAung1601/RnDNotes/edit/main/tess-experiment.log.md)
+
 ### Images to text using Tesseract
 
 Used Tesseract Engine to recognize text in images
