@@ -699,6 +699,10 @@ mkdir ./data/<MODEL-NAME>-ground-truth
 
 - Image files -> .tif or .png 
 - Text files -> .gt.txt extensions
+- tif နဲ့ tiff အတူတူ ဆို​ပေမဲ့ ဒီမှာ tiff မရ tif ပဲ
+- .gt.txt နဲ့ ဆုံးရမယ် 
+- Image file name နဲ့ txt file name တူရပါမယ်။ box file နဲ့ lstmf ဆိုတဲ့ file ​တွေ ထုတ်လို့ ဖြစ်ပါတယ်။
+- Variable ​တွေ ​ပြောင်း Tune ကြည့်ရဦးမယ်။ ခုက အကုန် default mode ​တွေချည်းပဲ။
 
 ```shell
 make training MODEL_NAME=mmfoo START_MODEL=mya PSM=7 TESSDATA=/usr/local/share/tessdata/tessdata_best
