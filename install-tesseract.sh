@@ -16,7 +16,6 @@ apt-get install -y g++ autoconf utomake libtool pkg-config libpng-dev libjpeg8-d
 # Complie Tesseract with training options (also feel free to update Tesseract versions and such!)
 # Getting data: beware the source might change or not being available
 
-mkdir src && cd /app/src 
 git clone https://github.com/tesseract-ocr/tesseract
 cd /app/src/tesseract && ./autogen.sh && ./configure && make && make install && ldconfig 
 make training && make training-install 
