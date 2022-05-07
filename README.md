@@ -42,7 +42,7 @@ Run the script
 ./install-tesseract.sh
 ```
 
-[Tesseract Experiments log](https://github.com/ThuraAung1601/RnDNotes/tess-experiment.log.md)
+[Tesseract Experiments log](https://github.com/ThuraAung1601/RnDNotes/blob/main/tess-experiment.log.md)
 
 ### Images to text using Tesseract
 
