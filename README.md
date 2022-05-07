@@ -1,4 +1,14 @@
-## R&D Notes
+# R&D Notes
+
+- [Table of Contents](#r-d-notes)
+    + [Change image extension](#change-image-extension)
+    + [Concatenate multiple text files into one file](#concatenate-multiple-text-files-into-one-file)
+    + [Split into multiple files one line, one text file](#split-into-multiple-files-one-line-one-text-file)
+    + [Install Tesseract to the local machine](#install-tesseract-to-the-local-machine)
+    + [Images to text using Tesseract](#images-to-text-using-tesseract)
+    + [Fine Tuning or reTraining Tesseract](#fine-tuning-or-retraining-tesseract)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ### Change image extension
 
@@ -15,7 +25,7 @@ for f in *.png; do convert "$f" -density 300 "${f%%.*}.tif"; done
 ```python
 python multi2onetxt.py <path-to-files> <concatenated-file>
 ```
-### Split into multiple files - one line, one text file
+### Split into multiple files one line one text file
 
 ```python
 python one2multiple.py <input-file> <output-files-path> 
@@ -66,7 +76,7 @@ psm : Page Segmentation Method
   - 13    Raw line. Treat the image as a single text line, bypassing hacks that are Tesseract-specific.
 ```
 
-### Fine Tuning / Training Tesseract
+### Fine Tuning or reTraining Tesseract
 
 - Clone the tesseract train repository for MakeFile
 ```shell
