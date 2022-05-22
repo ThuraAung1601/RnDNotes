@@ -1,4 +1,4 @@
-# R&D Notes
+# Tesseract related
 
 - [Table of Contents](#r-d-notes)
     + [Change image extension](#change-image-extension)
