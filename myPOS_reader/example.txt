@@ -1,0 +1,5 @@
+တစ်/tn ကိုက်/n ကို/ppm ဝမ်/n ခုနှစ်ထောင်/tn ပါ/part ။/punc
+မနှစ်/n က/ppm သူ/pron ကျွန်မ/pron ကို/ppm သင်/v ပေး/part တယ်/ppm ။/punc
+ကျွန်တော့်/pron ခုံ/n သွား/v ရှာ/v မလို့/part ။/punc
+အတန်း/n စ/v တာ/part ကြာ/v ပြီ/ppm လား/part ။/punc
+ဆေး/n နည်းနည်း/adv စား/v လိုက်/part ၊/punc သုံး/tn လေး/tn ရက်/n လောက်/part အနားယူ/v လိုက်/part ရင်/conj ပျောက်/v သွား/part မှာ/ppm ပါ/part ။/punc
