@@ -1,7 +1,7 @@
 # Convert myPOS word/tag format to [(word,tag)] format
 # Author: Thura Aung @ LU Laboratory, Myanmar
 # Date: 11 Aug 2023
-# How to run: corpus_read.py <word/tag-file> >> sequence list
+# How to run: corpus_read.py <word/tag-file> > sequence_list
 
 import sys
 
