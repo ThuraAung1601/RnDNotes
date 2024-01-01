@@ -704,6 +704,10 @@ mkdir ./data/<MODEL-NAME>-ground-truth
 - Image file name နဲ့ txt file name တူရပါမယ်။ box file နဲ့ lstmf ဆိုတဲ့ file ​တွေ ထုတ်လို့ ဖြစ်ပါတယ်။
 - Variable ​တွေ ​ပြောင်း Tune ကြည့်ရဦးမယ်။ ခုက အကုန် default mode ​တွေချည်းပဲ။
 
+```
+make tesseract-langdata
+```
+
 ```shell
 make training MODEL_NAME=mmfoo START_MODEL=mya PSM=7 TESSDATA=/usr/local/share/tessdata/tessdata_best
 ```
