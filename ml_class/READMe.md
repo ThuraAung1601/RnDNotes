@@ -1,6 +1,17 @@
 
 ### MNIST Experiment Result
 
+- MLP Results
+| Method             | Top-1 Acc (%) | Accuracy (%) | Parameters   | Inf. Time (ms) |
+|-------------------|---------------|--------------|-------------|----------------|
+| Teacher            | 97.71         | 97.71        | 2,227,210   | 0.246          |
+| Student (Vanilla)  | 97.45         | 97.45        | 109,386     | 0.191          |
+| Vanilla KD         | 97.10         | 97.10        | 109,386     | 0.175          |
+| Feature KD         | 97.17         | 97.17        | 109,386     | 0.168          |
+| SimKD              | 96.33         | 96.33        | 109,386     | 0.230          |
+
+
+- CNN Results
 | Model                 | Top1 Accuracy (%) | Accuracy (%) | Inference Time (s) |
 |-----------------------|-----------------|-----------------|------------------|
 | Teacher               | 99.18           | 99.18           | 0.001335         |
