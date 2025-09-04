@@ -2,6 +2,7 @@
 ### MNIST Experiment Result
 
 - MLP Results
+  
 | Method             | Top-1 Acc (%) | Accuracy (%) | Parameters   | Inf. Time (ms) |
 |-------------------|---------------|--------------|-------------|----------------|
 | Teacher            | 97.71         | 97.71        | 2,227,210   | 0.246          |
@@ -12,6 +13,7 @@
 
 
 - CNN Results
+  
 | Model                 | Top1 Accuracy (%) | Accuracy (%) | Inference Time (s) |
 |-----------------------|-----------------|-----------------|------------------|
 | Teacher               | 99.18           | 99.18           | 0.001335         |
